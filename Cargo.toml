@@ -23,8 +23,8 @@ bench = false
 #doc-comment = "0.3"
 
 [features]
-default = ["std","mesalock_sgx"]
-std = ["mesalock_sgx"]
+default = ["std"]
+std = []
 mesalock_sgx = ["std", "sgx_tstd"]
 
 # This feature is no longer used and is DEPRECATED. This crate now
